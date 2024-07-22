@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/all.min.css" />
+    <link rel="stylesheet" href="/CSS/normal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-xxx"
+      crossorigin="anonymous"
+    />
+    
+
+    <title>all product Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container topnav">
+        <a href="#" class="logo"><img src="/img/logo-black.png" /></a>
+        <form action="" class="search">
+          <input type="search" placeholder="search" />
+          <button type="submit">search</button>
+        </form>
+        <!-- <div class="wish_list">
+          <div onclick="open_cart()" class="icon_wish">
+            <i class="fa-sharp fa-solid fa-heart"></i>
+            <span class="count_wish_item">0</span>
+          </div> -->
+        <div class="cart_header">
+          <div onclick="open_cart()" class="icon_cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="count_item">0</span>
+          </div>
+          <div class="total_price">
+            <p>My Cart</p>
+            <p class="price_cart_head">$0</p>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="links container">
+          <i onclick="open_menu()" class="fa-solid fa-bars btn_open_menu"></i>
+          <ul id="menu">
+            <span onclick="close_menu()" class="bg_overlay"></span>
+            <i onclick="close_()" class="fa-solid fa-circle-xmark btn_close_menu"></i>
+            <img class="logo_menu" src="/img/logo-black.png" />
+
+            <li class="active"><a id="home" href="/HTML/index.html">Home</a></li>
+            <li><a id="allpro" href="/HTML/all_product.html">All Product</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="login_signup">
+            <a href="/Log-in/login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="/Log-in/signup.html">Sign up <i class="fa-solid fa-user-plus"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- bag cart -->
+
+    <div class="cart">
+      <div class="top_cart">
+        <h3>my cart <span class="count_item_cart"></span></h3>
+        <span onclick="close_cart()" class="close_cart"
+          ><i class="fa-solid fa-circle-xmark"></i
+        ></span>
+      </div>
+      <div class="items_in_cart"></div>
+      <div class="bottom_cart">
+        <div class="total">
+          <p>cart subtotal</p>
+          <p class="price_cart_total">$0</p>
+        </div>
+        <div class="button_cart">
+          <a href="/HTML/checkout.html" class="btn_cart">proceed to checkout</a>
+          <button class="btn_cart trans_bg">shop more</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="top_page">
+        <div class="container">
+            <h1>all prouduct in website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore tempore animi excepturi. Ratione placeat voluptatem est quae rem</p>
+            
+        </div>
+    </div>
+
+
+    <section class="all_products">
+        <div class="container">
+            <div class="filter">
+        <h2>filter</h2>
+        <div class="filter_item">
+            <h4>categorie</h4>
+            <div class="contant">
+        
+                <div class="item">
+                    <span>phones</span>
+                    <input type="checkbox">
+                </div>
+        
+                <div class="item">
+                    <span>tablets</span>
+                    <input type="checkbox">
+                </div>
+        
+                <div class="item">
+                    <span>tv</span>
+                    <input type="checkbox">
+                </div>
+        
+                <div class="item">
+                    <span>electronics</span>
+                    <input type="checkbox">
+                </div>
+        
+                <div class="item">
+                    <span>fashion</span>
+                    <input type="checkbox">
+                </div>
+        
+            </div>
+        </div>
+        
+        <div class="filter_item">
+            <h4>color</h4>
+            <div class="contant">
+        
+                <div class="item">
+                    <span class="color" style="background-color:red;"></span>
+                    <input type="checkbox">
+                </div>
+        
+                <div class="item">
+                    <span class="color" style="background-color:green;"></span>
+                    <input type="checkbox">
+                </div>
+        
+                <div class="item">
+                    <span class="color" style="background-color:blue;"></span>
+                    <input type="checkbox">
+                </div>
+        
+        
+                <div class="item">
+                    <span class="color" style="background-color:gray;"></span>
+                    <input type="checkbox">
+                </div>
+        
+        
+                
+            </div>
+        </div>
+            </div>
+            <div id="products_dev" class="products_dev">
+        
+            </div>
+        </div>
+        
+        
+ </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <div class="back_to_top">
+        <p>Back to Top</p>
+      </div>
+  
+      <footer>
+        <div class="container">
+          <div class="big_row">
+            <img src="/img/logo-white.png" />
+            <div class="hotline">
+              <i class="fa-sharp fa-solid fa-headset"></i>
+              <div class="text">
+                <h5>Hotline Free</h5>
+                <h6>+0123456789</h6>
+              </div>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+  
+          <div class="row">
+            <h4>FAQS & Help</h4>
+            <div class="links">
+              <a href="#">F.A.Q.S</a>
+              <a href="#">Ordering</a>
+              <a href="#">Contacts</a>
+              <a href="#">Events</a>
+              <a href="#">Help Center</a>
+            </div>
+          </div>
+  
+          <div class="row">
+            <h4>Shopping & Delivery</h4>
+            <div class="links">
+              <a href="#">Delivery</a>
+              <a href="#">payment & Shipping</a>
+              <a href="#">Estimated Delivery</a>
+              <a href="#"> Shipping Gide</a>
+            </div>
+          </div>
+  
+          <div class="row">
+            <h4>information</h4>
+            <div class="links">
+              <a href="#">Popular</a>
+              <a href="#">our Service</a>
+              <a href="#">Your Account</a>
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & Condition</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="/JS/script.js"></script>
+    <script src="/JS/all_products.js"></script>
+   
+    
+  </body>
+</html>
